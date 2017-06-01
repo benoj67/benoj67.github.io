@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Unica+One');
+body{
+  background:#1A1F2B;
+}header{
+  padding: 15px 15px;
+}
+#logo{
+  width:60px;
+  height:60px;
+  text-align:center;
+  background-color:#30395C;
+  display: inline-block;
+  background:url(https://s-media-cache-ak0.pinimg.com/564x/11/12/5a/11125a6354b8328cd1633801240495f0.jpg) no-repeat center center;
+  background-size:cover;
+  border-radius:40px;
+}
+a{
+  color:white;
+  text-decoration:none;
+}
+a.menu-link {
+  	    float: right;
+		    display: block;
+		    padding: 1em;
+		}
+		nav[role=navigation] {
+			clear: both;
+			-webkit-transition: all 0.3s ease-out;  
+			-moz-transition: all 0.3s ease-out;
+			-ms-transition: all 0.3s ease-out;
+			-o-transition: all 0.3s ease-out;
+			transition: all 0.3s ease-out;
+		}
+		.js nav[role=navigation] {
+			overflow: hidden;
+			max-height: 0;
+		}
+		nav[role=navigation].active {
+			max-height: 15em;
+		}
+		nav[role=navigation] ul {
+			margin: 0;
+			padding: 0;
+		}
+		nav[role=navigation] li a {
+			display: block;
+			padding: 0.8em;
+		}
+		
+		@media screen and (min-width: 48.25em) {
+			a.menu-link {
+			   display: none;
+			}
+			.js nav[role=navigation] {
+				max-height: none;
+			}
+			nav[role=navigation] ul {
+				margin: 0 0 0 -0.25em;
+				border: 0;
+			}
+			
+			nav[role=navigation]  li {
+				display: inline-block;
+				margin: 0 0.25em;
+			}
+			nav[role=navigation] li a {
+				border: 0;
+			}
+		}
+.jumbo h1{
+
+  font-family: 'Unica One' ,cursive;
+  color:#fff;
+  font-size:50px;
+  font-weight: 400px;
+  text-align: center;
+  padding:200px 0px;
+  border-top: 2px #fff solid;
+}
+.work-container{
+  padding:50px 100px;
+  text-align:center;
+}
+.work-container .box{
+  display: inline-flex;
+  background:#fff;
+  width:250px;
+  height:250px;
+  margin:20px;
+  border-radius: 20px;
+}
+.about{
+  font-family: 'Unica One' cursive;
+  color:#fff;
+  font-size:20px;
+  font-weight: 400px;
+  text-align: center;
+  padding:50px 0px;
+}
+.about p{
+  font-size: 20px;
+  padding:20px 20px;
+}
+.Contact{
+  text-align: center;
+  font-family: 'Unica One' cursive;
+  color:#fff;
+}
+.Contact h2{
+  font-size: 30px;
+  padding:20px 10px;
+}
+#bottom-bar{
+  padding:30px 0px 10px;
+}
+form{
+  max-width:450px;
+  margin: 0 auto 50px;
+}
+label{
+  display:block;
+  margin-bottom:20px;
+}
+span{
+  display:block;
+}
+.contact-info-group label{
+  width:48%;
+  margin-left:2%;
+  float:left;
+  box-sizing:(bording-box);
+}
+input, textarea{
+  border:3px solid blue;
+  width:100%;
+}
